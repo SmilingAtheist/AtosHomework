@@ -8,38 +8,30 @@ class Book {
     final private String author;
     private boolean isLent;
     private String whoLent;
-    
     Book(String startTitle, int startYear, String startAuthor) {
         title = startTitle;
         year = startYear;
         author = startAuthor;
         isLent = false;
     }
-    
     String getTitle(){
         return title;
     }
-    
     int getYear() {
         return year;
     }
-    
     String getAuthor() {
         return author;
     }
-    
     boolean getIsLent() {
         return isLent;
     }
-      
     void setIsLent(boolean newIsLent) {
         isLent = newIsLent;
     }
-    
     String getWhoLent() {
         return whoLent;
     }
-    
     void setWhoLent(String newWhoLent) {
         whoLent = newWhoLent;
     }
